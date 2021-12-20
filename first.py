@@ -15,7 +15,7 @@ def encrypt(text,s):
 
 n = input(" ENTER THE TASK YOU WANT TO ENCRYPT  : ")
 
-s = 5
+s = 7
 print ("CURRENT DATA " + n)
 print ("SHIFTED DATA : " + str(s))
 print ("ENCRYPTED DATA : " + encrypt(n,s))
@@ -37,7 +37,7 @@ def decrypt(text,s):
 
 n = input(" ENTER THE TASK YOU WANT TO DECRYPT : ")
 
-s = 5
+s = 7
 print ("CURRENT" + n)
 print ("SHIFTED DATA : " + str(s))
 print ("DECRYPTED DATA: " + decrypt(n,s))
